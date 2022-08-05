@@ -25,12 +25,31 @@ body {
 
 /* Adjusts the music box container; size, color, positioning */
 .music-container {
+    /* Adjusts the whole container box in general */
     background-color: white;
     border-radius:15px;
-    box-shadow: 0 20px 20px 0 #e9abb1;
     display: flex;
     padding: 20px 30px;
     position: relative;
+    /* Adjust this section to create that warm smooth shadow underneath the box */
+    box-shadow: 0 20px 20px 0 #e9abb1;
     margin: 100px 0;
     z-index: 10;
+}
+
+/* Adjusts the profile image of the song exclusively */
+.img-container img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: inerhit;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Changes the exact container size and postion */
+.img-container {
+    position:relative;
+    width: 110px;
 }
