@@ -1,0 +1,15 @@
+/* This is a temporary font for words, you can change later on*/
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* Takes up the entire viewport */
+    height: 100vh;
+    margin: 0;
+    font-family: 'Lato', san-serif;
+    /* Color changer, alternate this the way you like it*/
+    background-image: linear-gradient();
+}
