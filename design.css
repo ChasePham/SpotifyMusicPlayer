@@ -1,4 +1,4 @@
-/* This is a temporary font for words, you can change later on*/
+/* This is a temporary font for words, you can change later on */
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
 * {
@@ -10,10 +10,15 @@ body {
     height: 100vh;
     margin: 0;
     font-family: 'Lato', sans-serif;
-    /* Color changer, alternate this the way you like it*/
+    /* Color changer, alternate this the way you like it */
     background-image: linear-gradient(
          0deg,
-         rgb(247,247,247) 23.8%,
-         rgb(252,221,221) 92%
+         #a35c6e 23.8%,
+         #162a40 92%
     );
+    /* Puts everything aligned at the middle of the page */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
