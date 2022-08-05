@@ -50,11 +50,6 @@ body {
     animation-play-state: paused;
 }
 
-/* Plays if it contains that specific class within the html folder*/
-.music-container.play .img-container img {
-    animation-play-state: running;
-}
-
 /* circles the container in a full 360deg */
 @keyframes rotate{
     from {
@@ -63,6 +58,11 @@ body {
     to {
         transform: rotate(360deg);
     }
+}
+
+/* Plays if it contains that specific class within the html folder*/
+.music-container.play .img-container img {
+    animation-play-state: running;
 }
 
 /* Changes the exact container size and postion */
