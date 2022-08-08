@@ -22,6 +22,8 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+/* Entire navigation bar for the play, backwards, and forwards options*/
 .navigation_bar{
     display:flex;
     align-items: center;
@@ -29,6 +31,8 @@ body {
     z-index: 1;
 }
 
+
+/* The play button style*/
 .action-command{
     background-color: white;
     border: 0;
@@ -42,6 +46,7 @@ body {
 }
 
 
+/* Style for the pop up of the description of the song*/
 .song-information {
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 15px 15px 0 0;
@@ -56,6 +61,7 @@ body {
     z-index: 0;
   }
   
+
   .music-container.play .song-information {
     opacity: 1;
     transform: translateY(-100%);
