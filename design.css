@@ -51,14 +51,17 @@ body {
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 15px 15px 0 0;
     position: absolute;
+    padding: 10px 10px 10px 150px;
+    opacity: 0;
     top: 0;
     left: 20px;
     width: calc(100% - 40px);
-    padding: 10px 10px 10px 150px;
-    opacity: 0;
     transform: translateY(0%);
     transition: transform 0.3s ease-in, opacity 0.3s ease-in;
     z-index: 0;
+  }
+  .song-information h4 {
+    margin: 0;
   }
   
 
@@ -90,6 +93,8 @@ body {
     margin: 100px 0;
     z-index: 10;
 }
+
+
 
 /* Adjusts the profile image of the song exclusively */
 .img-container img {
